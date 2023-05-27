@@ -5,8 +5,8 @@ import { FaQuoteLeft } from "react-icons/fa";
 export default function SingleTestimonial({ i }) {
   return (
     <div
-      className={`flex ${
-        i % 2 === 0 ? "flex-row" : "flex-row-reverse"
+      className={`flex flex-col justify-center items-center ${
+        i % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
       } gap-10 mb-20`}
     >
       {/* avatar */}
