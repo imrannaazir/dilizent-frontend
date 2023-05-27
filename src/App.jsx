@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 export default function App() {
   const routes = [
@@ -7,6 +8,11 @@ export default function App() {
       id: 1,
       link: "/",
       component: Home,
+    },
+    {
+      id: 2,
+      link: "/contact",
+      component: Contact,
     },
   ];
 
