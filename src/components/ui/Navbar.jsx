@@ -27,6 +27,7 @@ export default function Navbar() {
       </li>
     </>
   );
+
   return (
     <div className="navbar bg-base-100 sticky top-0 z-50">
       {/* navbar start */}
@@ -55,9 +56,9 @@ export default function Navbar() {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl text-primary">
+        <Link to="/" className="btn btn-ghost normal-case text-xl text-primary">
           Dilizent
-        </a>
+        </Link>
       </div>
 
       {/* lg screen */}
