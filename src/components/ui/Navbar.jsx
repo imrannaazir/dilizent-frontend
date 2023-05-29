@@ -23,6 +23,27 @@ export default function Navbar() {
         <Link to="/team">Our Team</Link>
       </li>
       <li>
+        <div className="dropdown dropdown-hover dropdown-end  dropdown-bottom">
+          <label tabIndex={0} className="">
+            Hover
+          </label>
+          <ul
+            tabIndex={0}
+            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a>Institution</a>
+            </li>
+            <li>
+              <a>Agencies</a>
+            </li>
+            <li>
+              <a>Organizations</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
         <Link to="/contact">Contact</Link>
       </li>
     </>
