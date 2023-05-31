@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Agency from "./pages/Agency";
 import Testimonials from "./pages/Testimonials";
 import Team from "./pages/Team";
 
@@ -25,6 +26,11 @@ export default function App() {
       id: 4,
       link: "/team",
       component: Team,
+    },
+    {
+      id: 5,
+      link: "/agency",
+      component: Agency,
     },
   ];
 
