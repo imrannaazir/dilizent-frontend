@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link to="/interviewers">Interviewers</Link>
       </li>
       <li>
-        <Link to="/agency">Agency</Link>
+        <Link to="/agencies">Agency</Link>
       </li>
       <li>
         <Link to="/professionals">Professionals</Link>
